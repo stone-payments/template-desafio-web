@@ -65,6 +65,8 @@ O layout está disponível no [figma][FIGMA_URL]
 - Faça testes unitários dos seus componentes
 - Utilize uma bilbioteca de cache como swr ou react-query
 - Utlize styled-components
+- Publique sua aplicação em uma plataforma de deploy rápido ([vercel](https://zeit.co/)/[heroku](https://www.heroku.com)/[netlify](https://www.netlify.com)/outros)
+- Publique seu código no seu perfil no GitHub em um **repositório privado**
 
 <br/>
 
@@ -94,11 +96,6 @@ O layout está disponível no [figma][FIGMA_URL]
 - O código está em algum controle de versão?
 - Os _commits_ são pequenos e consistentes?
 - As mensagens de _commit_ são claras?
-
-### Deploy
-- Publique sua aplicação ([now](https://zeit.co/)/[heroku](https://www.heroku.com)/[netlify](https://www.netlify.com)/outros)
-- Publique seu código no seu perfil no GitHub em um **repositório privado**
-
 
 <br/>
 
