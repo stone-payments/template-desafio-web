@@ -17,7 +17,7 @@ O desafio é criar uma aplicação de conversão de valores de Dóllar para Real
 
 A aplicação terá duas etapas, uma para inserir o valor que se deseja converter e outra para mostrar os valores convertidos.
 
-Para isso você deve buscar a cotação na API [QUOTATION_API].
+Para isso você deve buscar a cotação na [API de moedas][QUOTATION_API].
 
 A aplicação deve mostrar os seguintes dados:
 
