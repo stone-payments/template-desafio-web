@@ -59,6 +59,7 @@ O layout está disponível no [figma][FIGMA_URL]
 [![figma-layout][FIGMA-IMAGE]][FIGMA_URL]
 
 ## Requisitos
+- Utilize a fonte do layout
 - Utilize React
 - Utilize TypeScript
 - Crie um cliente HTTP com axios

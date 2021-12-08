@@ -1,0 +1,24 @@
+{
+  "name": "template-desafio-web",
+  "version": "0.0.0",
+  "description": "Desafio web da Stone",
+  "main": "index.js",
+  "repository": "git@github.com:stone-co/template-desafio-web.git",
+  "author": "Rodrigo <rodrigo.tavares@stone.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "jest": "^27.4.3",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.2"
+  }
+}
