@@ -1,51 +1,49 @@
 # Desafio web
+O desafio é criar uma aplicação de conversão de valores de Dóllar para Real. 
 
-Seu desafio será construir uma aplicação de conversão de montante em DÓLAR para REAL. 
+A aplicação terá duas etapas, uma para inserir o valor que se deseja converter e outra para mostrar os valores convertidos.
 
-A aplicação terá duas etapas, inserir os valores e mostrar os valores retornados.
+Para isso você deve buscar a cotação na API [QUOTATION_API].
 
-Primeira Etapa
+A aplicação deve mostrar os seguintes dados:
 
-- A aplicação deve mostrar a cotação do dia
+1. Cotação do Dollar
+2. IOF
+3. Total em dólar sem imposto
+4. Total em dólar com imposto
+5. Total em real sem imposto
+6. Total em real com imposto
 
-    Para cotação você pode usar a API: [https://docs.awesomeapi.com.br/api-de-moedas](https://docs.awesomeapi.com.br/api-de-moedas)
+## Cálculo dos valores 
 
-    **Exemplo:**
+### Comprando com dinheiro 
 
-    - Cotação do dia: `R$ 4,15`
-- Deve-se ter um campo para digitar o valor desejado em dólar e a taxa do estado
+`[(Valor do produto em dólar) + (imposto do estado aonde esta comprando)] x (valor do dólar + IOF da compra de dólar)`
 
-    **Exemplo:** 
+### Comprando com cartão 
 
-    - Digite o valor em Dólar: `US$ 1200.00`
-    - Taxa do estado: `9,5%`
-- Deve-se ter um _radio button_ para selecionar se a compra é em dinheiro ou cartão
+`[(Valor do produto em dólar) + (imposto do estado aonde esta comprando) + (IOF de transações internacionais)] x (valor do dólar)`
 
-2. Segunda Etapa
 
-- A aplicação deve mostrar os seguintes dados
-    1. Cotação do Dollar
-    2. IOF
-    3. Total em dólar sem imposto
-    4. Total em dólar com imposto
-    5. Total em real sem imposto
-    6. Total em real com imposto
+## Possíveis dúvidas:
 
-### Possíveis dúvidas:
+- IOF é um imposto federal e tem com intuito ser um regulador da economia nacional. Em dinheiro seu valor é 1,1%, em cartão 6.4%
+- Nos EUA cada estado tem sua politica de cobrança de impostos. Por exemplo, a de Orlando é 6,5%, a de Nevada é 8,19 e Nova Iorque 8,87
 
-- IOF é um imposto federal e tem com intuito ser um regulador da economia nacional.
-    - **Exemplo: Em dinheiro é 1,1%, em cartão 6.4%**
-- Taxa do estado é: Em EUA cada estado tem sua politica de cobrança de impostos
-    - **Exemplo: Orlando: 6,5%, Las Vegas: 8,19%, Nova Iorque: 8,87%**
-- Sobre as operações financeiras, é correto afirmar que:
-    1. Comprando com dinheiro: [(Valor do produto em dólar) + (imposto do estado aonde esta comprando)] x (valor do dólar + IOF da compra de dólar)
-        - **Exemplo: (USD$ 149,00 + 8,87%) * (R$ 4,15 + 1,10%)**
-    2. Comprando com cartão: [(Valor do produto em dólar) + (imposto do estado aonde esta comprando) + (IOF de transações internacionais)] x (valor do dólar)
-        - **Exemplo: [(USD$ 149 + 8,87%) * R$ 4,15] + 6,38%**
 
-### Layout
+## Layout
 O layout está disponível no [figma](https://www.figma.com/file/y8IcDbllfaFAzXrEXR05PE/Teste-Front-Web-Stone)
 
+## Requisitos
+- Utilize React
+- Utilize TypeScript
+- Crie um cliente HTTP com axios
+- Faça testes unitários dos seus componentes
+- Utilize uma bilbioteca de cache como swr ou react-query
+- Utlize styled-components
+
+
+## Critérios de avaliação 
 
 ### Entrega
 - O resultado final está completo para ser executado?
@@ -70,14 +68,10 @@ O layout está disponível no [figma](https://www.figma.com/file/y8IcDbllfaFAzXr
 - Publique sua aplicação([now](https://zeit.co/)/[heroku](https://www.heroku.com)/[netlify](https://www.netlify.com)/outros)
 - Publique seu código no seu perfil no GitHub em um **repositório privado**
 
-### Outras informações
-- Utilize **React**
-- Utilize **TypeScript**
-- Se possível utilize styled-components
-- Se puder, crie um cliente HTTP com axios
-- Utilize uma bilbioteca de cache como swr ou react-query
 
 ### **Material de Estudo**
 - [Boas Práticas na Stone](https://github.com/stone-payments/stoneco-best-practices/blob/master/README_pt.md)
 - [Airbnb Javascript](https://github.com/airbnb/javascript)
+
+[QUOTATION_API]: https://docs.awesomeapi.com.br/api-de-moedas
 
