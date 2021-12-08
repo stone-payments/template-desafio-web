@@ -1,5 +1,19 @@
+<!-- 
+   CUIDADO 
+
+   Quando editar esse readme, tome cuidado com as tags <br/> 
+   elas são importantes para alinhar as imagens
+-->
+
+
+<div align="center">
+   <img src=".github/brand.svg" height="90">
+</div>
+
 # Desafio web
 O desafio é criar uma aplicação de conversão de valores de Dóllar para Real. 
+
+<img align="right" src=".github/currency.svg" width="370">
 
 A aplicação terá duas etapas, uma para inserir o valor que se deseja converter e outra para mostrar os valores convertidos.
 
@@ -14,25 +28,35 @@ A aplicação deve mostrar os seguintes dados:
 5. Total em real sem imposto
 6. Total em real com imposto
 
+<br/>
+
 ## Cálculo dos valores 
+
+<img align="left" src=".github/calculate.svg" width="250">
 
 ### Comprando com dinheiro 
 
-`[(Valor do produto em dólar) + (imposto do estado aonde esta comprando)] x (valor do dólar + IOF da compra de dólar)`
+
+`[(Valor do produto em dólar) + (imposto do estado aonde está comprando)] x (valor do dólar + IOF da compra de dólar)`
 
 ### Comprando com cartão 
 
-`[(Valor do produto em dólar) + (imposto do estado aonde esta comprando) + (IOF de transações internacionais)] x (valor do dólar)`
+`[(Valor do produto em dólar) + (imposto do estado aonde está comprando) + (IOF de transações internacionais)] x (valor do dólar)`
 
+<br/>
+<br/>
 
 ## Possíveis dúvidas:
 
 - IOF é um imposto federal e tem com intuito ser um regulador da economia nacional. Em dinheiro seu valor é 1,1%, em cartão 6.4%
 - Nos EUA cada estado tem sua politica de cobrança de impostos. Por exemplo, a de Orlando é 6,5%, a de Nevada é 8,19 e Nova Iorque 8,87
 
+<br/>
 
 ## Layout
-O layout está disponível no [figma](https://www.figma.com/file/y8IcDbllfaFAzXrEXR05PE/Teste-Front-Web-Stone)
+O layout está disponível no [figma][FIGMA_URL]
+
+[![figma-layout][FIGMA-IMAGE]][FIGMA_URL]
 
 ## Requisitos
 - Utilize React
@@ -42,8 +66,11 @@ O layout está disponível no [figma](https://www.figma.com/file/y8IcDbllfaFAzXr
 - Utilize uma bilbioteca de cache como swr ou react-query
 - Utlize styled-components
 
+<br/>
 
 ## Critérios de avaliação 
+
+<img align="right" src=".github/closed-fist.svg" width="90">
 
 ### Entrega
 - O resultado final está completo para ser executado?
@@ -51,11 +78,15 @@ O layout está disponível no [figma](https://www.figma.com/file/y8IcDbllfaFAzXr
 - O resultado final atende totalmente aos requisitos propostos?
 - O resultado final é visualmente elegante?
 
+<img align="right" src=".github/thumbs-up.svg" width="90">
+
 ### Boas Práticas
 - O código está de acordo com o guia de estilo da linguagem?
 - O código está bem estruturado?
 - O código faz o bom uso de *Design Patterns*?
 - O código possui testes?
+
+<img align="right" src=".github/document.svg" width="90">
 
 ### Documentação
 - O código foi entregue com um arquivo de _README_ claro de como instalar e codificar no projeto?
@@ -69,9 +100,19 @@ O layout está disponível no [figma](https://www.figma.com/file/y8IcDbllfaFAzXr
 - Publique seu código no seu perfil no GitHub em um **repositório privado**
 
 
+<br/>
+
 ### **Material de Estudo**
 - [Boas Práticas na Stone](https://github.com/stone-payments/stoneco-best-practices/blob/master/README_pt.md)
 - [Airbnb Javascript](https://github.com/airbnb/javascript)
 
+
+<!-- ~VARS~ -->
+<!-- API -->
 [QUOTATION_API]: https://docs.awesomeapi.com.br/api-de-moedas
 
+<!-- URLS -->
+[FIGMA_URL]: https://www.figma.com/file/y8IcDbllfaFAzXrEXR05PE/Teste-Front-Web-Stone
+
+<!-- ASSETS -->
+[FIGMA-IMAGE]: .github/figma-desafio.png
