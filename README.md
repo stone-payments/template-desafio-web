@@ -19,7 +19,7 @@ Primeira Etapa
 
     - Digite o valor em Dólar: `US$ 1200.00`
     - Taxa do estado: `9,5%`
-- Deve-se ter um __radio button__ para selecionar se a compra é em dinheiro ou cartão
+- Deve-se ter um _radio button_ para selecionar se a compra é em dinheiro ou cartão
 
 2. Segunda Etapa
 
@@ -60,11 +60,11 @@ O layout está disponível no [figma](https://www.figma.com/file/y8IcDbllfaFAzXr
 - O código possui testes?
 
 ### Documentação
-- O código foi entregue com um arquivo de __README__ claro de como instalar e codificar no projeto?
+- O código foi entregue com um arquivo de _README_ claro de como instalar e codificar no projeto?
 - O código possui comentários pertinentes?
 - O código está em algum controle de versão?
-- Os __commits__ são pequenos e consistentes?
-- As mensagens de __commit__ são claras?
+- Os _commits_ são pequenos e consistentes?
+- As mensagens de _commit_ são claras?
 
 ### Deploy
 - Publique sua aplicação([now](https://zeit.co/)/[heroku](https://www.heroku.com)/[netlify](https://www.netlify.com)/outros)
