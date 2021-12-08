@@ -11,17 +11,17 @@
 </div>
 
 # Desafio web
-O desafio é criar uma aplicação de conversão de valores de Dóllar para Real. 
+O desafio é criar uma aplicação de conversão de valores de dólar para real. 
 
 <img align="right" src=".github/currency.svg" width="370">
 
 A aplicação terá duas etapas, uma para inserir o valor que se deseja converter e outra para mostrar os valores convertidos.
 
-Para isso você deve buscar a cotação na [API de moedas][QUOTATION_API].
+Para isso, você deve buscar a cotação na [API de moedas][QUOTATION_API].
 
 A aplicação deve mostrar os seguintes dados:
 
-1. Cotação do Dollar
+1. Cotação do dólar
 2. IOF
 3. Total em dólar sem imposto
 4. Total em dólar com imposto
@@ -37,19 +37,19 @@ A aplicação deve mostrar os seguintes dados:
 ### Comprando com dinheiro 
 
 
-`[(Valor do produto em dólar) + (imposto do estado aonde está comprando)] x (valor do dólar + IOF da compra de dólar)`
+`[(Valor em dólar) + (imposto do Estado)] x (valor do dólar + IOF da compra de dólar)`
 
 ### Comprando com cartão 
 
-`[(Valor do produto em dólar) + (imposto do estado aonde está comprando) + (IOF de transações internacionais)] x (valor do dólar)`
+`[(Valor em dólar) + (imposto do Estado) + (IOF de transações internacionais)] x (valor do dólar)`
 
 <br/>
 <br/>
 
 ## Possíveis dúvidas:
 
-- IOF é um imposto federal e tem com intuito ser um regulador da economia nacional. Em dinheiro seu valor é 1,1%, em cartão 6.4%
-- Nos EUA cada estado tem sua politica de cobrança de impostos. Por exemplo, a de Orlando é 6,5%, a de Nevada é 8,19 e Nova Iorque 8,87
+- IOF é um imposto federal e tem como intuito ser um regulador da economia nacional. Em dinheiro, seu valor é 1,1%, e em cartão 6,4%
+- Nos EUA, cada Estado tem sua própria cobrança de impostos. Por exemplo, o imposto de Nevada é de 8,19%, já o de Nova Iorque é de 8,87%
 
 <br/>
 
@@ -80,7 +80,7 @@ O layout está disponível no [figma][FIGMA_URL]
 
 <img align="right" src=".github/thumbs-up.svg" width="90">
 
-### Boas Práticas
+### Boas práticas
 - O código está de acordo com o guia de estilo da linguagem?
 - O código está bem estruturado?
 - O código faz o bom uso de *Design Patterns*?
@@ -96,13 +96,13 @@ O layout está disponível no [figma][FIGMA_URL]
 - As mensagens de _commit_ são claras?
 
 ### Deploy
-- Publique sua aplicação([now](https://zeit.co/)/[heroku](https://www.heroku.com)/[netlify](https://www.netlify.com)/outros)
+- Publique sua aplicação ([now](https://zeit.co/)/[heroku](https://www.heroku.com)/[netlify](https://www.netlify.com)/outros)
 - Publique seu código no seu perfil no GitHub em um **repositório privado**
 
 
 <br/>
 
-### **Material de Estudo**
+### **Material de estudo**
 - [Boas Práticas na Stone](https://github.com/stone-payments/stoneco-best-practices/blob/master/README_pt.md)
 - [Airbnb Javascript](https://github.com/airbnb/javascript)
 
