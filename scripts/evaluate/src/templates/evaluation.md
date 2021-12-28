@@ -40,3 +40,7 @@ Avaliador: <%= props.evaluator %>
 
 - As mensagens de commit são claras?
   <%= props.documentation[4] %>
+
+## Outras observações
+
+<%= props.aditionalInfo %>
